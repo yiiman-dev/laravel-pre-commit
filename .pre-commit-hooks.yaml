@@ -1,0 +1,6 @@
+-   id: set-ide-helper
+    name: Do IDE Helper
+    description: Prevent commit files without comment.
+    entry: php artisan ide-helper:generate
+    language: system
+    stages: [pre-commit]
