@@ -3,4 +3,4 @@
     description: Prevent commit files without comment.
     entry: php artisan ide-helper:generate
     language: system
-    stages: [pre-commit]
+    stages: [commit]
